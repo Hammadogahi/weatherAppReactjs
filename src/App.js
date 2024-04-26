@@ -3,8 +3,6 @@ import "./App.css";
 import WeatherApp from "./Components/WeatherApp/WeatherApp";
 
 function App() {
-  const api = process.env.REACT_APP_API_KEY;
-  console.log(api);
   return (
     <div className="App">
       <WeatherApp />

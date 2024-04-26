@@ -12,6 +12,7 @@
   justify-content: center;
   gap: 14px;
   padding-top: 60px;
+  position: relative;
 }
 
 .top-bar input {
@@ -69,23 +70,38 @@
 }
 
 .element {
-    margin:auto;
-    display: flex;
-    align-items: flex-start;
-    gap:12px;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
 }
 
 .data {
-    font-size: 34px;
-    font-weight: 400;
-
+  font-size: 34px;
+  font-weight: 400;
 }
 
 .text {
-    font-size: 20px;
-    font-weight: 400;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .icon {
-    margin-top: 10px;
+  margin-top: 10px;
+}
+
+.locate-me {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  top: 52%;
+  right: 30%;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.current-location-icon img {
+  display: block;
 }
